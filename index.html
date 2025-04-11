@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Webpage</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    a {
+      color: #ff6600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      text-align: center;
+      background-color: #333;
+      color: white;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Webpage</h1>
+  </header>
+
+  <div class="container">
+    <p>This is a paragraph about my journey learning web development. I'm starting with HTML, CSS, and JavaScript to build cool websites!</p>
+
+    <img src="image.jpeg" alt="Sample Image">
+
+    <p>Check out my <a href="https://github.com/Rohithpn" target="_blank">GitHub</a> for more projects.</p>
+
+    <button onclick="showMessage()">Click Me!</button>
+  </div>
+
+  
+  <script>
+    function showMessage() {
+      alert("Hello, this is your first interactive webpage!");
+    }
+  </script>
+
+</body>
+</html>
